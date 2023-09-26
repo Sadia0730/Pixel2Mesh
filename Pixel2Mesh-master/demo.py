@@ -84,4 +84,4 @@ mesh = np.vstack((vert, face))
 pred_path = FLAGS.image.replace('.png', '.obj')
 np.savetxt(pred_path, mesh, fmt='%s', delimiter=' ')
 
-print 'Saved to', pred_path
+print ('Saved to', pred_path)
